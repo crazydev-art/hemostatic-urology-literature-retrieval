@@ -1,0 +1,6 @@
+old_src
+gold_standard_do_not_send/submission_results/*
+gold_standard_do_not_send/reference_results/*
+irrelevant
+__pycache__
+.idea
