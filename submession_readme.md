@@ -4,8 +4,8 @@
 
 ---
 ## ✅ Requirements
-requests
-tenacity
+requests.
+tenacity.
 ratelimit
 python-dotenv
 pytest
