@@ -4,12 +4,12 @@
 
 ---
 ## ✅ Requirements
-requests.
-tenacity.
-ratelimit
-python-dotenv
-pytest
-tqdm
+- requests
+- tenacity
+- ratelimit
+- python-dotenv
+- pytest
+- tqdm
 > ✅ **Make sure to enter your API key in the `.env` file** to avoid hitting public rate limits.
 please replace this variable in the .env file < NCBI_API_KEY = 'Your_API_KEY'> by your personal API key 
 
