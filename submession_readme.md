@@ -4,12 +4,12 @@
 
 ---
 ## ✅ Requirements
-requests
-tenacity
-ratelimit
-python-dotenv
-pytest
-tqdm
+- requests
+- tenacity
+- ratelimit
+- python-dotenv
+- pytest
+- tqdm
 > ✅ **Make sure to enter your API key in the `.env` file** to avoid hitting public rate limits.
 please replace this variable in the .env file < NCBI_API_KEY = 'Your_API_KEY'> by your personal API key 
 
@@ -179,7 +179,8 @@ project/
 │ ├── search.py # Main search and batch processing logic
 │ └── utils.py # Utility functions (e.g., data loaders)
 ├── tests/
-│ └── test_search.py # Unit tests for search and query logic
-├── config.py # Configuration constants (e.g., datasets, limits)
-├── main.py # Entry point of the project
-└── README.md # Project documentation
+│ └── test_search.py
+│
+├── config.py
+├── main.py
+└── README.md
