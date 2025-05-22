@@ -172,15 +172,15 @@ Ensure correctness through unit tests.
 
 ## 📂 Folder Structure
 
+```text
 project/
 ├── src/
-│ ├── api_client.py # Handles API requests and pagination
-│ ├── query_builder.py # Builds and splits queries intelligently
-│ ├── search.py # Main search and batch processing logic
-│ └── utils.py # Utility functions (e.g., data loaders)
+│   ├── api_client.py         # Handles API requests and pagination
+│   ├── query_builder.py      # Builds and splits queries intelligently
+│   ├── search.py             # Main search and batch processing logic
+│   └── utils.py              # Utility functions (e.g., data loaders)
 ├── tests/
-│ └── test_search.py
-│
-├── config.py
-├── main.py
-└── README.md
+│   └── test_search.py        # Unit tests for search and query logic
+├── config.py                 # Configuration constants (e.g., datasets, limits)
+├── main.py                   # Entry point of the project
+└── README.md                 # Project documentation
