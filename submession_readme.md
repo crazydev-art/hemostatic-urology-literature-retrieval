@@ -1,4 +1,4 @@
-# Query System Optimization and Performance Enhancement
+#  Query System Optimization and Performance Enhancement
 
 ## Approach to Solving Each Task
 
